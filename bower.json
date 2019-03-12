@@ -1,0 +1,21 @@
+{
+  "name": "itv0130_kasutajaliidesed",
+  "homepage": "https://github.com/martinve/itv0130",
+  "authors": [
+    "Martin <martin.verrev@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "assets/vendor",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
