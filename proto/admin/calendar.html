@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="../bootstrap.min.css" rel="stylesheet">
+        <link href="calendar.css" rel="stylesheet">
+        <title>Boats</title>
+        <style>
+            .container {
+                margin-top: 40px;
+            }
+            .col-lg-4 {
+            }
+            .col-lg-2 {
+            }
+            .split {
+                margin-top: 40px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-default" role="navigation">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="index.html">Configuration</a>
+                    </li>
+                    <li>
+                        <a href="vessels.html">Vessels</a>
+                    </li>
+                    <li>
+                        <a href="extras.html">Extras</a>
+                    </li>
+                    <li>
+                        <a href="destinations.html">Destinations</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="">
+                    <h1 class="year">2013</h1>
+                    <h3 class="month">October</h3>
+                    <table id="calendar" class="calendar">
+                        <thead>
+                            <tr>
+                                <th>Monday</th>
+                                <th>Tuesday</th>
+                                <th>Wednesday</th>
+                                <th>Thursday</th>
+                                <th>Friday</th>
+                                <th>Saturday</th>
+                                <th>Sunday</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                                <td class="" id="cell_0201">
+                                    <span class="num">01</span>
+                                </td>
+                                <td class="" id="cell_0302">
+                                    <span class="num">02</span>
+                                </td>
+                                <td class="" id="cell_0403">
+                                    <span class="num">03</span>
+                                </td>
+                                <td class="" id="cell_0504">
+                                    <span class="num">04</span>
+                                </td>
+                                <td class="weekend" id="cell_0605">
+                                    <span class="num">05</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="weekend" id="cell_1006">
+                                    <span class="num">06</span>
+                                </td>
+                                <td class="" id="cell_1107">
+                                    <span class="num">07</span>
+                                </td>
+                                <td class="" id="cell_1208">
+                                    <span class="num">08</span>
+                                </td>
+                                <td class="" id="cell_1309">
+                                    <span class="num">09</span>
+                                </td>
+                                <td class="" id="cell_14010">
+                                    <span class="num">10</span>
+                                </td>
+                                <td class="" id="cell_15011">
+                                    <span class="num">11</span>
+                                </td>
+                                <td class="weekend" id="cell_16012">
+                                    <span class="num">12</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="weekend holiday" id="cell_20013">
+                                    <span class="num">13</span>
+                                </td>
+                                <td class="holiday" id="cell_21014">
+                                    <span class="num">14</span>
+                                    <br>
+                                </td>
+                                <td class="holiday" id="cell_22015">
+                                    <span class="num">15</span>
+                                </td>
+                                <td class="holiday" id="cell_23016">
+                                    <span class="num">16</span>
+                                </td>
+                                <td class="holiday" id="cell_24017">
+                                    <span class="num">17</span>
+                                </td>
+                                <td class="holiday" id="cell_25018">
+                                    <span class="num">18</span>
+                                </td>
+                                <td class="weekend">
+                                    <span class="num">19</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="weekend" id="cell_30020">
+                                    <span class="num">20</span>
+                                </td>
+                                <td class="" id="cell_31021">
+                                    <span class="num">21</span>
+                                </td>
+                                <td class="" id="cell_32022">
+                                    <span class="num">22</span>
+                                </td>
+                                <td class="" id="cell_33023">
+                                    <span class="num">23</span>
+                                </td>
+                                <td class="" id="cell_34024">
+                                    <span class="num">24</span>
+                                </td>
+                                <td class="" id="cell_35025">
+                                    <span class="num">25</span>
+                                </td>
+                                <td class="weekend" id="cell_36026">
+                                    <span class="num">26</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="weekend" id="cell_40027">
+                                    <span class="num">27</span>
+                                </td>
+                                <td class="" id="cell_41028">
+                                    <span class="num">28</span>
+                                </td>
+                                <td class="" id="cell_42029">
+                                    <span class="num">29</span>
+                                </td>
+                                <td class="" id="cell_43030">
+                                    <span class="num">30</span>
+                                </td>
+                                <td class="" id="cell_44031">
+                                    <span class="num">31</span>
+                                </td>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <input type="button" name="last" id="last" value="Previous" class="btn">
+                    <input type="button" name="current" id="current" value="Current" class="btn">
+                    <input type="button" name="next" id="next" value="Next" class="btn">
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
